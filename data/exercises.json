@@ -1,0 +1,454 @@
+{
+  "version": 1,
+  "exercises": [
+    {
+      "id": "stjel-ballen",
+      "name": "Stjel ballen",
+      "type": "oppvarming",
+      "themes": [
+        "ballkontroll",
+        "1-mot-1"
+      ],
+      "withOpponent": true,
+      "playersPerCourt": {
+        "min": 6,
+        "max": 30
+      },
+      "court": "hele-hallen",
+      "equipment": [
+        {
+          "need": "baller",
+          "perPlayer": 1,
+          "substitutes": []
+        },
+        {
+          "need": "kjegler",
+          "perCourt": 4,
+          "substitutes": [
+            "tape"
+          ]
+        }
+      ],
+      "setMinutes": {
+        "min": 5,
+        "max": 8
+      },
+      "kidText": "Alle spretter sin egen ball og passer på den, mens de prøver å slå bort de andres ball. Mister du ballen: sprett fem ganger med den andre hånda, så er du med igjen. Ingen er ute.",
+      "cues": [
+        "Pass på ballen din!",
+        "Se opp, ikke på ballen"
+      ],
+      "questions": [
+        "Hvordan klarte du å passe på ballen?"
+      ],
+      "easier": "Større felt, så det er lettere å komme unna.",
+      "harder": "Mindre felt, eller bare lov å sprette med den andre hånda.",
+      "figure": null,
+      "source": "G10-planen",
+      "version": 1
+    },
+    {
+      "id": "1-mot-1-korridor",
+      "name": "1 mot 1 i korridor",
+      "type": "stasjon",
+      "themes": [
+        "1-mot-1"
+      ],
+      "withOpponent": true,
+      "playersPerCourt": {
+        "min": 3,
+        "max": 7
+      },
+      "court": "tverrbane",
+      "equipment": [
+        {
+          "need": "handballmal",
+          "perCourt": 1,
+          "substitutes": [
+            "fotballmal-lite",
+            "matte",
+            "kjegler"
+          ]
+        },
+        {
+          "need": "kjegler",
+          "perCourt": 6,
+          "substitutes": [
+            "tape"
+          ]
+        },
+        {
+          "need": "baller",
+          "perCourt": 3,
+          "substitutes": []
+        }
+      ],
+      "setMinutes": {
+        "min": 3,
+        "max": 4
+      },
+      "kidText": "Du får ballen mens du løper, og prøver å komme forbi og score. Forsvareren går fram og møter deg, og står mellom deg og målet. Bytt etter hvert forsøk. Angriperen velger side.",
+      "cues": [
+        "Fart før finta",
+        "Følg din mann"
+      ],
+      "questions": [
+        "Hva gjorde at du kom forbi?"
+      ],
+      "easier": "Forsvareren får bare gå, ikke løpe.",
+      "harder": "Smalere korridor, eller bare ett sprett.",
+      "figure": null,
+      "source": "G10-planen",
+      "version": 1
+    },
+    {
+      "id": "2-mot-1",
+      "name": "2 mot 1",
+      "type": "stasjon",
+      "themes": [
+        "lokk-og-spill",
+        "1-mot-1"
+      ],
+      "withOpponent": true,
+      "playersPerCourt": {
+        "min": 3,
+        "max": 7
+      },
+      "court": "tverrbane",
+      "equipment": [
+        {
+          "need": "handballmal",
+          "perCourt": 1,
+          "substitutes": [
+            "fotballmal-lite",
+            "matte",
+            "kjegler"
+          ]
+        },
+        {
+          "need": "baller",
+          "perCourt": 2,
+          "substitutes": []
+        }
+      ],
+      "setMinutes": {
+        "min": 3,
+        "max": 4
+      },
+      "kidText": "Den med ballen løper mot mål. Kommer forsvareren mot deg, spiller du til den som er fri. Kommer han ikke, går du selv. Begge deler er riktig. Den som skyter, blir ny forsvarer.",
+      "cues": [
+        "Lokk og spill",
+        "Ser du rom? Gå!"
+      ],
+      "questions": [
+        "Hvem var fri?"
+      ],
+      "easier": "Forsvareren får bare gå.",
+      "harder": "En ny forsvarer løper inn fra siden når den første pasningen er slått.",
+      "figure": null,
+      "source": "G10-planen",
+      "version": 1
+    },
+    {
+      "id": "skudd-med-valg",
+      "name": "Skudd med valg",
+      "type": "stasjon",
+      "themes": [
+        "skudd"
+      ],
+      "withOpponent": false,
+      "playersPerCourt": {
+        "min": 3,
+        "max": 8
+      },
+      "court": "tverrbane",
+      "equipment": [
+        {
+          "need": "handballmal",
+          "perCourt": 1,
+          "substitutes": [
+            "fotballmal-lite",
+            "matte"
+          ]
+        },
+        {
+          "need": "tape",
+          "perCourt": 1,
+          "substitutes": [
+            "kjegler"
+          ]
+        },
+        {
+          "need": "baller",
+          "perCourt": 4,
+          "substitutes": []
+        }
+      ],
+      "setMinutes": {
+        "min": 3,
+        "max": 4
+      },
+      "kidText": "Del målet i felt med tape. Si hvor du skal skyte og hvordan før du skyter (hoppskudd, vanlig skudd, med den andre hånda). Treffer du der du sa, får laget poeng. To køer, så ingen venter lenge.",
+      "cues": [
+        "Si det før du skyter",
+        "Sikt mot hjørnet"
+      ],
+      "questions": [
+        "Hvilket skudd traff du best med?"
+      ],
+      "easier": "Kortere avstand til mål.",
+      "harder": "En forsvarer står foran og prøver å stoppe skuddet.",
+      "figure": null,
+      "source": "G10-planen",
+      "version": 1
+    },
+    {
+      "id": "3-mot-3-regelkort",
+      "name": "3 mot 3 med regelkort",
+      "type": "spill",
+      "themes": [
+        "1-mot-1",
+        "lokk-og-spill",
+        "forsvar"
+      ],
+      "withOpponent": true,
+      "playersPerCourt": {
+        "min": 4,
+        "max": 8
+      },
+      "court": "tverrbane",
+      "equipment": [
+        {
+          "need": "handballmal",
+          "perCourt": 2,
+          "substitutes": [
+            "fotballmal-lite",
+            "matte",
+            "kjegler"
+          ]
+        },
+        {
+          "need": "vester-2-farger",
+          "perCourt": 1,
+          "substitutes": []
+        },
+        {
+          "need": "baller",
+          "perCourt": 1,
+          "substitutes": []
+        }
+      ],
+      "setMinutes": {
+        "min": 3,
+        "max": 5
+      },
+      "kidText": "Alle har hver sin motspiller å passe på. Før hvert sett velger hvert lag ett regelkort. Nye lag mellom settene.",
+      "cues": [
+        "Følg din mann",
+        "Ballen forbi deg? Løp hjem!",
+        "Vis deg"
+      ],
+      "questions": [
+        "Hvor var det ledig rom?",
+        "Hva gjorde at dere scoret?"
+      ],
+      "easier": "En joker som alltid spiller med laget som har ballen.",
+      "harder": "Laget som leder, spiller med én mindre.",
+      "ruleCards": true,
+      "figure": null,
+      "source": "G10-planen",
+      "version": 2
+    },
+    {
+      "id": "kamp-korte-sett",
+      "name": "Kamp i korte sett",
+      "type": "kamp",
+      "themes": [
+        "kamp"
+      ],
+      "withOpponent": true,
+      "playersPerCourt": {
+        "min": 4,
+        "max": 8
+      },
+      "court": "tverrbane",
+      "equipment": [
+        {
+          "need": "handballmal",
+          "perCourt": 2,
+          "substitutes": [
+            "fotballmal-lite",
+            "matte",
+            "kjegler"
+          ]
+        },
+        {
+          "need": "vester-2-farger",
+          "perCourt": 1,
+          "substitutes": []
+        },
+        {
+          "need": "baller",
+          "perCourt": 1,
+          "substitutes": []
+        }
+      ],
+      "setMinutes": {
+        "min": 3,
+        "max": 5
+      },
+      "kidText": "Vanlig kamp, uten regelkort. Nye lag hver gang, så ingen taper hele tiden. Alle starter på null hvert sett, og vi teller ikke sammen.",
+      "cues": [
+        "Se mål, gå!",
+        "Løp hjem!"
+      ],
+      "questions": [
+        "Hva vil du prøve neste gang?"
+      ],
+      "easier": "Joker på laget som har ballen.",
+      "harder": "Mål teller bare hvis alle har rørt ballen.",
+      "figure": null,
+      "source": "G10-planen",
+      "version": 2
+    },
+    {
+      "id": "3-mot-2",
+      "name": "3 mot 2",
+      "type": "spill",
+      "themes": [
+        "lokk-og-spill",
+        "kontring"
+      ],
+      "withOpponent": true,
+      "playersPerCourt": {
+        "min": 5,
+        "max": 10
+      },
+      "court": "halv-bane",
+      "equipment": [
+        {
+          "need": "handballmal",
+          "perCourt": 1,
+          "substitutes": [
+            "fotballmal-lite",
+            "matte"
+          ]
+        },
+        {
+          "need": "baller",
+          "perCourt": 2,
+          "substitutes": []
+        }
+      ],
+      "setMinutes": {
+        "min": 4,
+        "max": 6
+      },
+      "kidText": "Tre angriper mot to forsvarere og målvakt. Dere har 10 sekunder på å score. Den som skjøt, blir forsvarer. Forsvarerne snakker sammen: «Jeg tar ballen!» – «Jeg tar ham!»",
+      "cues": [
+        "Lokk og spill",
+        "Hold deg bred"
+      ],
+      "questions": [
+        "Hvem var fri?",
+        "Hva gjorde at dere scoret?"
+      ],
+      "easier": "Ingen tidsgrense.",
+      "harder": "En tredje forsvarer løper inn fra siden ved første pasning.",
+      "figure": null,
+      "source": "G10-planen",
+      "version": 1
+    },
+    {
+      "id": "kamp-5-mot-5-tre-lag",
+      "name": "Kamp 5 mot 5, tre lag",
+      "type": "kamp",
+      "themes": [
+        "kamp"
+      ],
+      "withOpponent": true,
+      "playersPerCourt": {
+        "min": 15,
+        "max": 15
+      },
+      "teams": 3,
+      "court": "hel-bane",
+      "equipment": [
+        {
+          "need": "handballmal",
+          "perCourt": 2,
+          "substitutes": []
+        },
+        {
+          "need": "vester-3-farger",
+          "perCourt": 1,
+          "substitutes": [
+            "vester-2-farger"
+          ]
+        },
+        {
+          "need": "baller",
+          "perCourt": 2,
+          "substitutes": []
+        }
+      ],
+      "setMinutes": {
+        "min": 4,
+        "max": 4
+      },
+      "kidText": "Tre lag på fem. To lag spiller, ett lag hviler og kaster mot veggen og teller mottak. Alle lag spiller to av tre kamper. Ny målvakt hver kamp.",
+      "cues": [
+        "Se mål, gå!",
+        "Løp hjem!"
+      ],
+      "questions": [
+        "Hva fungerte for laget deres?"
+      ],
+      "easier": "Bland lagene etter tre kamper hvis ett lag taper alt.",
+      "harder": "Mål teller dobbelt hvis du kom forbi en forsvarer.",
+      "figure": null,
+      "source": "G10-planen",
+      "version": 2
+    }
+  ],
+  "ruleCards": [
+    {
+      "id": "rk1",
+      "text": "Kommer du forbi en forsvarer og scorer, teller målet dobbelt"
+    },
+    {
+      "id": "rk2",
+      "text": "Ikke lov å sprette ballen"
+    },
+    {
+      "id": "rk3",
+      "text": "Alle må ha rørt ballen før mål"
+    },
+    {
+      "id": "rk4",
+      "text": "Mål med den andre hånda teller dobbelt"
+    },
+    {
+      "id": "rk5",
+      "text": "Forsvaret får poeng når de tar ballen"
+    }
+  ],
+  "challengeCards": [
+    {
+      "id": "uk1",
+      "text": "Lur en forsvarer før du scorer"
+    },
+    {
+      "id": "uk2",
+      "text": "Skyt med den andre hånda"
+    },
+    {
+      "id": "uk3",
+      "text": "Bare ett sprett"
+    },
+    {
+      "id": "uk4",
+      "text": "Forsvar alene mot to"
+    }
+  ]
+}
